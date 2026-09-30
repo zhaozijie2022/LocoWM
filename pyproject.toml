@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "locowm"
+version = "0.1.0"
+description = "World-model-guided residual adaptation for Go2W locomotion in Isaac Lab."
+requires-python = ">=3.11,<3.12"
+license = { file = "LICENSE" }
+dependencies = [
+  "rsl-rl-lib==2.3.3",
+  "tensorboard>=2.14,<3",
+  "gymnasium>=1.0,<2",
+  "numpy>=1.24,<3",
+  "scipy>=1.10,<2",
+  "PyYAML>=6,<7",
+  "prettytable>=3,<4",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8,<9",
+  "ruff>=0.8,<1",
+]
+logging = [
+  "wandb>=0.17,<1",
+  "neptune>=1.10,<2",
+]
+
+[tool.setuptools.packages.find]
+include = ["locowm*", "loco_rl*"]
+
+[tool.setuptools.package-data]
+locowm = ["assets/**/*"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+exclude = ["assets"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
