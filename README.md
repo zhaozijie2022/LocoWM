@@ -4,7 +4,9 @@
 
 **CASIA**
 
-<!-- Project Page / Paper: links to be added. -->
+<p align="center">
+  <strong><a href="https://zhaozijie2022.github.io/locowm/">Project Website</a></strong> · <strong><a href="https://arxiv.org/pdf/2609.39179">Paper PDF</a></strong> · <strong><a href="https://arxiv.org/abs/2609.39179">arXiv</a></strong>
+</p>
 
 <p align="right">
   🌎 <a href="README.md">English</a> | <a href="README_CN.md">中文</a>
@@ -14,7 +16,7 @@
 
 ## Overview
 
-![LocoWM: transporting unsecured payloads across terrain, during acceleration, and under external pushes](assets/images/teaser.png)
+![LocoWM: transporting unsecured payloads across terrain, during acceleration, and under external pushes](docs/assets/images/teaser.png)
 
 LocoWM helps robots maintain precise control while moving. A world model predicts the effects of a base policy's proposed action, and a residual adapter uses these predictions to correct anticipated deviations before execution.
 

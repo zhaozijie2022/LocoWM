@@ -4,7 +4,9 @@
 
 **CASIA**
 
-<!-- Project Page / Paper: links to be added. -->
+<p align="center">
+  <strong><a href="https://zhaozijie2022.github.io/locowm/">项目网站</a></strong> · <strong><a href="https://arxiv.org/pdf/2609.39179">论文 PDF</a></strong> · <strong><a href="https://arxiv.org/abs/2609.39179">arXiv</a></strong>
+</p>
 
 <p align="right">
   🌎 <a href="README.md">English</a> | <a href="README_CN.md">中文</a>
@@ -14,7 +16,7 @@
 
 ## Overview
 
-![LocoWM：在复杂地形、加速运动和外力推动下运输未固定载物](assets/images/teaser.png)
+![LocoWM：在复杂地形、加速运动和外力推动下运输未固定载物](docs/assets/images/teaser.png)
 
 LocoWM 让机器人在运动过程中保持精确控制。世界模型预测基础策略所提议动作的影响，残差适配器利用这些预测，在动作执行前修正预期偏差。
 
