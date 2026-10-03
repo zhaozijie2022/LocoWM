@@ -2,11 +2,7 @@
 
 ### LocoWM: High-Precision Locomotion through World-Model-Guided Residual Adaptation
 
-**CASIA**
 
-<p align="center">
-  <strong><a href="https://zhaozijie2022.github.io/locowm/">项目网站</a></strong> · <strong><a href="https://arxiv.org/pdf/2609.39179">论文 PDF</a></strong> · <strong><a href="https://arxiv.org/abs/2609.39179">arXiv</a></strong>
-</p>
 
 <p align="right">
   🌎 <a href="README.md">English</a> | <a href="README_CN.md">中文</a>
